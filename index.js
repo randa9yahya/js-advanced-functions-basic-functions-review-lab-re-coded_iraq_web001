@@ -1,10 +1,10 @@
 // Your code here
-function saturdayFun( ) {
-  return "This Saturday, I want to ....!"
-}
-// function saturdayFun(activity="shoping") {
-//   return `This Saturday, I want to ${activity}!`
+// function saturdayFun( ) {
+//   return "This Saturday, I want to ....!"
 // }
+function saturdayFun(activity="shoping") {
+  return `This Saturday, I want to ${activity}!`
+}
 
 let mondayWork = function(activity="go to the zoo") {
   return `This Monday, I will ${activity}.`
